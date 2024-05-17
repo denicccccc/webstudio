@@ -47,6 +47,20 @@ address {
 .logo-designe {
     color: var(--hover-color);
 }
+/* .flex-test {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
+/* .flex-test > li:not(:last-child) {
+    margin-right: 30px;
+} */
+
+.list-direction {
+    display: flex;
+    gap: 30px;
+}
 
 .header-nav-link,
 .header-contacts-link {
