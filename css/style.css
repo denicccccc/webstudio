@@ -353,17 +353,17 @@ body {
 }  
 .item-2{
     display: flex;
-  justify-content: space-between;
+align-content: center;
        background-color: #4983b2;
      order: 2;
       } 
  .item-3{  display: flex;
-     justify-content: space-between;
+align-content: center;
             background-color: #663797;
               order: 3;
       } 
  .item-4{  display: flex;
-     justify-content: space-around;
+align-content: center;
     background-color: #0e7f12;
         order: 4;} 
 .item-5{  display: flex;
