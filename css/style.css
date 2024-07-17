@@ -72,6 +72,8 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
     border: 1px solid #ececec;
+    display: flex;
+    
 }
 
 .header-logo {
@@ -90,20 +92,21 @@ body {
     display: flex;
 }
 
-.header-nav-list {
+.header-nav{
     display: flex;
     align-items: center;
     gap: 50px;
     margin-left: 93px;
 }
 
-.header-contacts {
+.header-nav{
+
     margin-left: auto;
     display: flex;
     align-items: center;
     gap: 50px;
 }
-.header-contacts-link,
+.header-nav,
 .header-nav-link
  {
     font-weight: 500;
