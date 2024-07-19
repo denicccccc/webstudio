@@ -349,4 +349,5 @@ body {
 .item-link {
   display: flex;
   justify-content: flex-end;
+  gap: 30px;
 }
