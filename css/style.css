@@ -116,10 +116,15 @@ body {
 
 .header-nav-link {
   color: var(--main-heading-color);
+  display: flex;
+  gap: 40px;
 }
 
 .header-contacts-link {
   color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 80px;
 }
 
 .header-contacts-link:hover,
