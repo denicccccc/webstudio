@@ -124,7 +124,7 @@ body {
   color: inherit;
   display: flex;
   align-items: center;
-  gap: 80px;
+
 }
 
 .header-contacts-link:hover,
