@@ -114,7 +114,7 @@ body {
   align-items: center;
 }
 
-.header-nav-link {
+.header-nav {
   color: var(--main-heading-color);
   display: flex;
   gap: 40px;
