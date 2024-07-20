@@ -114,13 +114,13 @@ body {
   align-items: center;
 }
 
-.header-nav {
+.header-nav-link {
   color: var(--main-heading-color);
   display: flex;
   gap: 40px;
 }
 
-.header-contacts-link {
+.header-contacts{
   color: inherit;
   display: flex;
   align-items: center;
@@ -145,7 +145,18 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-color: var(--main-background-color);
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0.2),
+      rgba(0, 255, 0, 0.2)
+    ),
+    url("../images/tim.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.team-list > li {
+box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
 .hero-title {
