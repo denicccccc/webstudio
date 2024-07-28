@@ -122,7 +122,8 @@ body {
 .header-contacts{
   color: inherit;
   display: flex;
-  align-items: center;
+justify-content: center;
+align-items: center;
 margin-left: auto;
 gap: 40px;
 }
@@ -362,17 +363,22 @@ box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1
   gap: 30px;
 }
 .header-aldres{
- color:#2196f3;
  width:16px;
  height :12px;
 }
 .header-nomer{
- color:#757575;
  width:16px;
  height :12px;
 }
 .sponsar{
 display: flex;
 justify-content: center;
+align-items: center;
 color: #000;
+}
+.companies{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
 }
