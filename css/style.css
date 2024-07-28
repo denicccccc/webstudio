@@ -182,7 +182,6 @@ box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1
   padding: 10px;
   border: 0;
   border-radius: 4px;
-
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -202,7 +201,6 @@ box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1
 
 .features-header {
   margin-bottom: 10px;
-
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -220,7 +218,6 @@ box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1
 .occupation-header,
 .team-header {
   margin-bottom: 50px;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -247,7 +244,6 @@ box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1
 
 .team-name {
   margin-bottom: 10px;
-
   font-size: 16px;
   font-weight: 500;
   text-align: center;
@@ -273,7 +269,6 @@ box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
-
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -365,4 +360,14 @@ box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1
   display: flex;
   justify-content: flex-end;
   gap: 30px;
+}
+.header-aldres{
+ color:#2196f3;
+ width:16px;
+ height :12px;
+}
+.header-nomer{
+ color:#757575;
+ width:16px;
+ height :12px;
 }
