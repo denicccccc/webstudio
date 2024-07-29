@@ -132,8 +132,8 @@ gap: 40px;
 .header-nav-link:hover,
 .header-contacts-link:focus,
 .header-nav-link:focus {
-  color: var(--hover-color);
-  opacity: 1;
+    color :#2196f3;
+   opacity: 1;
 }
 
 /* hero */
