@@ -115,25 +115,26 @@ body {
 
 .header-nav-link {
   color: var(--main-heading-color);
+  fill: #757575;
   display: flex;
   gap: 40px;
 }
 
-.header-contacts{
+.header-contacts {
   color: inherit;
   display: flex;
-justify-content: center;
-align-items: center;
-margin-left: auto;
-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  gap: 40px;
 }
 
 .header-contacts-link:hover,
 .header-nav-link:hover,
 .header-contacts-link:focus,
 .header-nav-link:focus {
-  
-   opacity: 1;
+  color: #005eb0;
+  opacity: 1;
 }
 
 /* hero */
@@ -157,7 +158,8 @@ gap: 40px;
   background-size: cover;
 }
 .team-list > li {
-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
 .hero-title {
@@ -362,15 +364,15 @@ box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1
   justify-content: flex-end;
   gap: 50px;
 }
-.sponsar{
-display: flex;
-justify-content: center;
-align-items: center;
-color: #000;
+.sponsar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
 }
-.companies{
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 30px;
+.companies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
