@@ -393,9 +393,8 @@ body {
   list-style-type: none;
   justify-content: center;
   align-items: center;
-  
   gap: 30px;
-  background-color: #757575;
+  color: #757575;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
