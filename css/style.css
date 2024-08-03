@@ -37,7 +37,6 @@ body {
   margin: 0 auto;
   /* margin-left: auto;
     margin-right: auto; */
-  padding: 0 15px;
 
   outline: 2px dashed #f44336;
 }
@@ -127,6 +126,11 @@ body {
   align-items: center;
   margin-left: auto;
   gap: 40px;
+  text-decoration: none;
+}
+
+.header-contacts-link {
+  color: black;
 }
 
 .header-contacts-link:hover,
@@ -157,9 +161,17 @@ body {
   background-position: center;
   background-size: cover;
 }
-.team-list > li {
-  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
-    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+.team-list {
+
+  
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.team-list-li {
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
 .hero-title {
@@ -179,6 +191,7 @@ body {
 }
 .header-item {
   display: flex;
+  list-style-type: none;
 }
 .hero-btn {
   min-width: 216px;
@@ -362,17 +375,28 @@ body {
 .item-link {
   display: flex;
   justify-content: flex-end;
-  gap: 50px;
+  gap: 45px;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 .sponsar {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #000;
 }
 .companies {
   display: flex;
+  list-style-type: none;
   justify-content: center;
   align-items: center;
+  
   gap: 30px;
+  background-color: #757575;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
