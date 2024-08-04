@@ -278,6 +278,8 @@ body {
 /* footer */
 
 .footer {
+  display: flex;
+  justify-content: right;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--main-background-color);
@@ -462,7 +464,6 @@ body {
   border: 2px solid #AFB1B8;
   border-radius: 2.5%;
   fill: #AFB1B8;
-  
 }
 
 .companies-svg-6:hover {
