@@ -469,6 +469,10 @@ body {
   fill: #2196f3;
   color: #2196f3;
 }
-.svg{
-    display: flex;
+
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
