@@ -278,8 +278,6 @@ body {
 /* footer */
 
 .footer {
-  display: flex;
-  justify-content: right;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--main-background-color);
@@ -470,4 +468,7 @@ body {
   border-color: #2196f3;
   fill: #2196f3;
   color: #2196f3;
+}
+.svg{
+    display: flex;
 }
