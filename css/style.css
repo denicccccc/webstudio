@@ -472,7 +472,9 @@ body {
 
 .footer-logos {
   display: flex;
+   list-style-type: none;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 10px;
 }
