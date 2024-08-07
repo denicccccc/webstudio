@@ -347,11 +347,6 @@ body {
 }
 
 .portfolio-btn {
-    display: flex;
-    gap: 8px;
-    justify-content: center;
-    flex-wrap: nowrap;
-     margin-bottom: 50px;
   padding: 6px 22px;
   cursor: pointer;
   border: 0;
