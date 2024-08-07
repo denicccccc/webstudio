@@ -409,6 +409,7 @@ body {
   margin: 0px;
 }
 
+
 .companies {
   margin-top: 50px;
   display: flex;
@@ -541,4 +542,52 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 30px;
+}
+
+.li-p1 {
+  position: absolute;
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  top: 1231px;
+  left: 104px;
+  margin: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #0000007b;
+}
+
+.li-p2 {
+  position: absolute;
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  top: 1231px;
+  left: 519px;
+  margin: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #0000007b;
+}
+
+.li-p3 {
+  position: absolute;
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  top: 1231px;
+  left: 934px;
+  margin: 0px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #0000007b;
 }
