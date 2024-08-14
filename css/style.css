@@ -121,7 +121,7 @@ body {
   gap: 40px;
 }
 .contas-icon {
-  color: currentColor;
+  fill: currentColor;
 }
 
 .header-contacts {
@@ -138,6 +138,9 @@ body {
 .header-contacts-link {
   color: black;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .header-contacts-link:hover,
@@ -404,12 +407,8 @@ body {
   padding-left: 0;
 }
 .sponsar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #000;
-  margin-top: 90px;
+ padding: 94px 0px ;
+  color:#AFB1B8 ;
 }
 
 .always-h2 {
@@ -425,77 +424,21 @@ body {
   align-items: center;
   gap: 30px;
   text-decoration: none;
-  margin-bottom: 0;
-  padding-left: 0;
- color: blue ;
- filter: hue-rotate(0deg);
 }
 
-.companies-svg-3 {
+.companies-item {
   border: 2px solid #AFB1B8;
   border-radius: 2.5%;
-  fill: #AFB1B8;
+  color:#AFB1B8 ;
+  padding: 16px 32px;
 }
 
-.companies-svg-3:hover {
+.companies-item:hover {
   border-color: #2196f3;
-  fill: #2196f3;
   color: #2196f3;
 }
-.companies-svg-1 {
-  border: 2px solid #AFB1B8;
-  border-radius: 2.5%;
-  fill: #AFB1B8;
-}
-
-.companies-svg-1:hover {
-  border-color: #2196f3;
-  fill: #2196f3;
-  color: #2196f3;
-}
-.companies-svg-2 {
-  border: 2px solid #AFB1B8;
-  border-radius: 2.5%;
-  fill: #AFB1B8;
-}
-
-.companies-svg-2:hover {
-  border-color: #2196f3;
-  fill: #2196f3;
-  color: #2196f3;
-}
-.companies-svg-4 {
-  border: 2px solid #AFB1B8;
-  border-radius: 2.5%;
-  fill: #AFB1B8;
-}
-
-.companies-svg-4:hover {
-  border-color: #2196f3;
-  fill: #2196f3;
-  color: #2196f3;
-}
-.companies-svg-5 {
-  border: 2px solid #AFB1B8;
-  border-radius: 2.5%;
-  fill: #AFB1B8;
-}
-
-.companies-svg-5:hover {
-  border-color: #2196f3;
-  fill: #2196f3;
-  color: #2196f3;
-}
-.companies-svg-6 {
-  border: 2px solid #AFB1B8;
-  border-radius: 2.5%;
-  fill: #AFB1B8;
-}
-
-.companies-svg-6:hover {
-  border-color: #2196f3;
-  fill: #2196f3;
-  color: #2196f3;
+.companies-icon{
+  fill: currentColor;
 }
 
 .footer-h2 {
