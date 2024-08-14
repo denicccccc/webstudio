@@ -176,6 +176,7 @@ body {
 
 .team-list-li {
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  background-color: white;
 }
 
 .hero-title {
@@ -193,8 +194,9 @@ body {
   gap: 30px;
   justify-content: center;
 }
-.header-item {
+.features-list {
   display: flex;
+  gap: 30px;
   list-style-type: none;
 }
 .hero-btn {
@@ -524,6 +526,7 @@ body {
   background-color: #2196f3;
 }
 .main-svg {
+  display: flex;
   gap: 10px;
   fill:#AFB1B8;
   background-color: white;
@@ -543,51 +546,44 @@ body {
   justify-content: center;
   margin-bottom: 30px;
 }
+.image-container{
+  position: relative;
+}
 
-.li-p1 {
+.li-text{
   position: absolute;
   width: 370px;
   display: flex;
   justify-content: center;
   color: white;
-  top: 1231px;
-  left: 104px;
+  bottom: 0;
+  left: 0;
   margin: 0px;
-  padding-left: 100px;
-  padding-right: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #0000007b;
 }
 
-.li-p2 {
-  position: absolute;
-  width: 370px;
-  display: flex;
-  justify-content: center;
-  color: white;
-  top: 1231px;
-  left: 519px;
-  margin: 0px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #0000007b;
-}
 
-.li-p3 {
-  position: absolute;
-  width: 370px;
+.button-list{
   display: flex;
   justify-content: center;
-  color: white;
-  top: 1231px;
-  left: 934px;
-  margin: 0px;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #0000007b;
+  gap: 8px;
+  list-style-type: none;
+}
+.portfolio-list{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+.portfolio-item{
+width: 360px;
+list-style-type: none;
+}
+.portfolio-item:hover{
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+background: #fff;
 }
