@@ -306,7 +306,14 @@ body {
   padding-bottom: 60px;
   background-color: var(--main-background-color);
 }
+.footerflex{
+  display: flex;
 
+}
+.footer-socials-box{
+  margin-left: 70px;
+  margin-right: 93px;
+}
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
@@ -346,6 +353,34 @@ body {
 .footer-adress + .footer-contacts {
   margin-bottom: 9px;
 }
+.footer-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 10px;
+  margin-top: 10px;
+}
+.footer-socioal-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: currentColor;
+  color: white;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background-color: rgb(255, 255, 255, 0.1);
+ }
+ .footer-socioal-item:hover{
+  background-color: #2196f3;
+  color: white;
+ }
+.footer-social-icon {
+ fill: currentColor;
+
+}
+
 
 /* portfolio */
 
@@ -493,7 +528,27 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 30px;
+  gap: 10px;
+  margin-top: 10px;
 }
+.socioal-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: currentColor;
+  color: #AFB1B8;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+ }
+ .socioal-item:hover{
+  background-color: #2196f3;
+  color: white;
+ }
+.social-icon {
+ fill: currentColor;
+}
+
 .image-container{
   position: relative;
 }
