@@ -444,7 +444,7 @@ color: white;
   max-width: 528px;
   padding: 40px;
   border-radius: 4px;
-  background-color: var(--main-text-color);
+  background-color: white;
   transform: translate(-50%, -50%);
   transition-property: transform, opacity;
   transition-duration: 250ms;
@@ -460,7 +460,12 @@ color: white;
   opacity: 0;
   transform: translate(-50%, 50%) scale(0.5);
 }
-
+.modal-field {
+  display: flex;
+   flex-direction: column;
+   gap: 4px;
+   margin-bottom: 10px;
+}
 /* portfolio */
 
 .btns-list {
