@@ -255,7 +255,17 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-heading-color);
 }
-
+.input-emeil {
+  display: inline;
+  justify-items: center;
+  color: #757575;
+  padding: 10px 24px;
+  width: 100%;
+}
+.input-emeil:hover{
+fill: #2196f3;
+}
+  
 /* team */
 
 .team {
@@ -298,6 +308,18 @@ body {
   letter-spacing: 0.03em;
 }
 
+.modal-field-form{
+  position: relative;
+  display: flex;
+  color: #2196f3;
+  width: 18px;
+  height: 18px;
+  top: 30px;
+  left:8px;
+}
+.modal-field-form:hover{
+  fill: #2196f3;
+}
 /* footer */
 
 .footer {
@@ -308,7 +330,6 @@ body {
 }
 .footerflex{
   display: flex;
-
 }
 .footer-socials-box{
   margin-left: 70px;
