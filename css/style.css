@@ -487,6 +487,23 @@ color: white;
    gap: 4px;
    margin-bottom: 10px;
 }
+.modal-close-btn{
+  display: flex;
+
+}
+.submit{
+  display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+margin-top: 30px;
+margin-left: 125px;
+background-color: #2196f3;
+width: 180px;
+height: 40px;
+border: 0;
+
+}
 /* portfolio */
 
 .btns-list {
