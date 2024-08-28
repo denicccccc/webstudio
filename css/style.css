@@ -656,6 +656,7 @@ border: 0;
   left: 0;
   transform: translateY(100%);
   transition: transform 1000ms ease;
+  
 }
 
 .main-svg:hover {
@@ -724,7 +725,7 @@ border: 0;
 }
 .portfolio-item{
 width: 360px;
-list-style-type: none;
+list-style-type: none; 
 }
 .overlay {
   width: 100%;
